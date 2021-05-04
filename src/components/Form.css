@@ -2,7 +2,8 @@
     margin-bottom: 15px;
   }
   
-.form input[type=text] {
+.form input[type=text],
+.form input[type=email] {
     display: block;
     height: 42px;
     padding: 6px 16px;

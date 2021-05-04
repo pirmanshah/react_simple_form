@@ -30,7 +30,7 @@ const Form = (props) => {
     return(
         <form className='form' onSubmit={handleSubmit} autoComplete="off">
             <input 
-                type="text" 
+                type="email" 
                 name="email" 
                 placeholder="Email"
                 value={enteredEmail}
