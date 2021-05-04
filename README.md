@@ -1,4 +1,4 @@
-### The Starting Project
+### How to use
 
 - Download it
 
