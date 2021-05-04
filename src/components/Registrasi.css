@@ -1,0 +1,22 @@
+.users-form {
+    width: 280px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    font-family: sans-serif;
+}
+  
+.users-form * {
+    box-sizing: border-box;
+}
+  
+.users-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+@media only screen and (max-width: 800px) {
+    .users-form {
+        margin: 20px auto;
+    }
+}

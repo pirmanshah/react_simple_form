@@ -1,0 +1,38 @@
+.table{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px;
+    font-family: sans-serif;
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin:10px auto;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+    background: #eee; 
+}
+
+th { 
+    background: #207cca; 
+    color: white; 
+}
+
+td, th { 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .table {
+      margin: 20px auto;
+    }
+    
+}
